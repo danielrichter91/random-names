@@ -1,23 +1,18 @@
-# Element color changer
+# Random name generator
 
 ## Purpose
 
-This was made to change the color of a clicked element to a random color
-from an array of color strings
+This was made to return a random ancient greek name from a list of both male and female.
+
 
 ## Usage
 
-`npm install --save color-switch`
+`npm install --save @helvetia/random-names`
 
 ```
-import colorSwitch from 'color-switch';
+import randomNames from '@helvetia/random-names';
 
-const yourElement = document.getElementById('el');
-
-colorSwitch(yourElement, [
-  '#f0f',
-  'red',
-  'rgba(0, 0, 0, 0.4)',
-  'green'
-]);
+const randomName = randomNames();
 ```
+
+# Demo link: [https://stak-digital.github.io/javascript-module/dist/](https://stak-digital.github.io/javascript-module/dist/)
