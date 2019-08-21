@@ -15,4 +15,4 @@ import randomNames from '@helvetia/random-names';
 const randomName = randomNames();
 ```
 
-# Demo link: [https://stak-digital.github.io/javascript-module/dist/](https://stak-digital.github.io/javascript-module/dist/)
+# Demo link: [https://danielrichter91.github.io/random-names/dist/](https://danielrichter91.github.io/random-names/dist/)
