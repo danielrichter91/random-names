@@ -1,10 +1,11 @@
 {
-  "name": "@danielrichter91/random-names",
+  "name": "@helvetia/random-names",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/danielrichter91/random-names/issues"
   },
-  "homepage": "https://github.com/danielrichter91/random-names#readme"
+  "homepage": "https://github.com/danielrichter91/random-names#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3"
+  }
 }
