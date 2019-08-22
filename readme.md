@@ -16,3 +16,9 @@ import randomNames from '@helvetia/random-names';
 
 const randomName = randomNames();
 ```
+
+#### Arguments
+
+| Argument | Type    | Default | Options      |
+| -------- | ------  | ------- | -------      |
+| gender   | Boolean | None    | MALE, FEMALE |
