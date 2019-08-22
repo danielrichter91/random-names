@@ -2,9 +2,9 @@
 
 # Demo link: [https://danielrichter91.github.io/random-names/dist/](https://danielrichter91.github.io/random-names/dist/)
 
-## Purpose
+## What does @helvetia/random-names do?
 
-This was made to return a random ancient greek name from a list of both male and female.
+Returns a random item from a list of ancient greek names.
 
 
 ## Installation
