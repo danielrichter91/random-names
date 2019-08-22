@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Random name demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <script src="index.js" defer></script>
     <style>
       body {
@@ -13,13 +14,65 @@
         justify-content: center;
         align-items: center;
       }
-      #the_box {
-        height: 50vh;
-        width: 50vw;
+      .section {
+        min-width: 800px;
       }
     </style>
   </head>
   <body>
-    <div id="random-name-here"></div>
-  </body>
+        <div class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="box">
+                            <article class="media">
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <strong>Random name</strong>
+                                            <br>
+                                            <div id="random-name-here"></div>
+                                        </p>
+                                        <a class="button is-primary" id="random-name">Generate</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <article class="media">
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <strong>Male name</strong>
+                                            <br>
+                                            <div id="male-name-here"></div>
+                                        </p>
+                                        <a class="button is-link" id="random-male">Generate</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <article class="media">
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <strong>Female name</strong>
+                                            <br>
+                                            <div id="female-name-here"></div>
+                                        </p>
+                                        <a class="button is-info" id="random-female">Generate</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
