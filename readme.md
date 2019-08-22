@@ -14,10 +14,11 @@ This was made to return a random ancient greek name from a list of both male and
 ## Usage
 
 ### Basic
+Random Male or Female name
 ```
 import randomNames from '@helvetia/random-names';
 
-const randomName = randomNames();
+randomNames();
 
 // > 'Adonis'
 ```
@@ -26,7 +27,7 @@ const randomName = randomNames();
 ```
 import randomNames from '@helvetia/random-names';
 
-const randomName = randomNames('MALE');
+randomNames('MALE');
 
 // > 'Homer'
 ```
@@ -35,7 +36,7 @@ const randomName = randomNames('MALE');
 ```
 import randomNames from '@helvetia/random-names';
 
-const randomName = randomNames('FEMALE');
+randomNames('FEMALE');
 
 // > 'Athena'
 ```
