@@ -6,72 +6,94 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <script src="index.js" defer></script>
     <style>
-      body {
-        height: 100vh;
-        width: 100vw;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
       .section {
         min-width: 800px;
+        padding: 1rem 1.5rem;
+      }
+      .highlight {
+        background-color: #f5f5f5;
+        border-radius: 6px;
+        color: #586e75;
+        position: relative;
+      }
+      pre {
+        white-space: initial;
+      }
+      .bd-copy {
+        background: 0 0;
+        border: none;
+        color: #4a4a4a;
+        cursor: pointer;
+        font-size: .625rem;
+        outline: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        position: absolute;
+        right: .25rem;
+        top: .25rem;
+      }
+      .bd-copy:hover {
+        background-color: #ffdd57;
+        color: rgba(0,0,0,.7);
       }
     </style>
   </head>
   <body>
         <div class="section">
             <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="box">
-                            <article class="media">
-                                <div class="media-content">
-                                    <div class="content">
-                                        <p>
-                                            <strong>Random name</strong>
-                                            <br>
-                                            <div id="random-name-here"></div>
-                                        </p>
-                                        <a class="button is-primary" id="random-name">Generate</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="box">
-                            <article class="media">
-                                <div class="media-content">
-                                    <div class="content">
-                                        <p>
-                                            <strong>Male name</strong>
-                                            <br>
-                                            <div id="male-name-here"></div>
-                                        </p>
-                                        <a class="button is-link" id="random-male">Generate</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="box">
-                            <article class="media">
-                                <div class="media-content">
-                                    <div class="content">
-                                        <p>
-                                            <strong>Female name</strong>
-                                            <br>
-                                            <div id="female-name-here"></div>
-                                        </p>
-                                        <a class="button is-info" id="random-female">Generate</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
+                <h1>Installation</h1>
+                <br />
+                <figure class="highlight">
+                    <pre>
+                        <code class="language-html" data-lang="html">
+                            import { single, list } from '@helvetia/random-names';
+                        </code>
+                    </pre>
+                </figure>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>Single</h2>
+                <br />
+                <figure class="highlight">
+                    <pre>
+                        <code class="language-html" data-lang="html" id="random-name-here"></code>
+                    </pre>
+                    <button class="button is-small bd-copy" id="random-name">Re-run</button>
+                </figure>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <figure class="highlight">
+                    <pre>
+                        <code class="language-html" data-lang="html" id="male-name-here"></code>
+                    </pre>
+                    <button class="button is-small bd-copy" id="random-male">Re-run</button>
+                </figure>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <figure class="highlight">
+                    <pre>
+                        <code class="language-html" data-lang="html" id="female-name-here"></code>
+                    </pre>
+                    <button class="button is-small bd-copy" id="random-female">Re-run</button>
+                </figure>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>List</h2>
+                <br />
+                <figure class="highlight">
+                    <pre>
+                        <code class="language-html" data-lang="html" id="random-list-here"></code>
+                    </pre>
+                    <button class="button is-small bd-copy" id="random-list">Re-run</button>
+                </figure>
             </div>
         </div>
     </body>
