@@ -47,7 +47,7 @@ single('FEMALE');
 ```
 import { list } from '@helvetia/random-names';
 
-list('5');
+list(5);
 
 // > ['Krista', 'Euripides', 'Phyllis', 'Agesilaus', 'Denys']
 ```
