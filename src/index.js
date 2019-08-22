@@ -357,7 +357,7 @@ export function single(gender) {
 };
 
 /**
- * @param {Number} length
+ * @param {Number} length - the length of the array returned
  */
 export function list(length) {
     if (length === undefined || length === null) {
