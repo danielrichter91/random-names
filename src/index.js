@@ -336,6 +336,8 @@ const listTwo = [
     'Sophie',
     'Stacee'
 ];
+
+const combinedLists = [...listOne, ...listTwo];
   
 /**
  * @param {String} gender
@@ -351,6 +353,27 @@ export function single(gender) {
         }
     }
 
-    const combinedLists = [...listOne, ...listTwo];
     return combinedLists[Math.floor(Math.random() * combinedLists.length)];
 };
+
+/**
+ * @param {Number} length
+ */
+export function list(length) {
+    if (length === undefined || length === null) {
+        throw new ReferenceError('Missing 1st argument (length)')
+    }
+    if (typeof length !== 'number') {
+        throw new TypeError('list(length) is expecting a number, was given a ' + typeof length)
+    }
+    if (length < 0) {
+        throw new RangeError('length cannot be a negative number')
+    }
+
+    let result = [];
+    for (let i = 0; i < length; i++) { 
+        result.push(combinedLists[Math.floor(Math.random() * combinedLists.length)]);
+    }
+
+    return result;
+}
