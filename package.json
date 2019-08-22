@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "rollup --config rollup.config.js",
-    "build": "npm run bundle && parcel build './demo/index.html' -d demo/dist",
+    "build": "npm run bundle && parcel build './demo/index.html' --public-url ./ -d demo/dist",
     "start": "npm run build && parcel './demo/index.html' -p 3000 -d demo/dist"
   },
   "repository": {
