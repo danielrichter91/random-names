@@ -338,15 +338,19 @@ const listTwo = [
 ];
   
 /**
- * @param {Bool} gender
+ * @param {String} gender
  */
-export default function(gender) {
-    if (gender === 'MALE') {
-        return listOne[Math.floor(Math.random() * listOne.length)];
+export function single(gender) {
+    if (typeof gender === 'string') {
+        if (gender === 'MALE') {
+            return listOne[Math.floor(Math.random() * listOne.length)];
+        } else if (gender === 'FEMALE') {
+            return listTwo[Math.floor(Math.random() * listTwo.length)];
+        } else {
+            throw new RangeError('gender must be either MALE or FEMALE');
+        }
     }
-    if (gender === 'FEMALE') {
-        return listTwo[Math.floor(Math.random() * listTwo.length)];
-    }
+
     const combinedLists = [...listOne, ...listTwo];
     return combinedLists[Math.floor(Math.random() * combinedLists.length)];
 };
