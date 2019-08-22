@@ -1,6 +1,6 @@
 # Random name generator
 
-[![version](https://img.shields.io/npm/v/@helvetia/random-names)](https://img.shields.io/npm/v/@helvetia/random-names)
+[![version](https://img.shields.io/npm/v/@helvetia/random-names)](https://www.npmjs.com/package/@helvetia/random-names)
 
 ## Demo link: [https://danielrichter91.github.io/random-names/demo/dist/](https://danielrichter91.github.io/random-names/demo/dist/)
 
