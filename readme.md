@@ -43,10 +43,30 @@ single('FEMALE');
 // > 'Athena'
 ```
 
+### List
+```
+import { list } from '@helvetia/random-names';
+
+list('5');
+
+// > ['Krista', 'Euripides', 'Phyllis', 'Agesilaus', 'Denys']
+```
+
 ## API
+Available functions
+
+### single
 
 #### Arguments
 
 | Argument | Type   | Default | Options      |
 | -------- | ------ | ------- | -------      |
 | gender   | String | None    | MALE, FEMALE |
+
+### list
+
+#### Arguments
+
+| Argument | Type   | Default |
+| -------- | ------ | ------- |
+| length   | Number | 0       |
