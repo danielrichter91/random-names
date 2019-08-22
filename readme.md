@@ -1,5 +1,7 @@
 # Random name generator
 
+[![NPM version][npm-image]][npm-url]
+
 ## Demo link: [https://danielrichter91.github.io/random-names/demo/dist/](https://danielrichter91.github.io/random-names/demo/dist/)
 
 ## What does @helvetia/random-names do?
