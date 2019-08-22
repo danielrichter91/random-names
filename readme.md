@@ -41,6 +41,8 @@ randomNames('FEMALE');
 // > 'Athena'
 ```
 
+## API
+
 #### Arguments
 
 | Argument | Type   | Default | Options      |
