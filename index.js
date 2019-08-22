@@ -37,7 +37,7 @@ function single(gender) {
   return combinedLists[Math.floor(Math.random() * combinedLists.length)];
 }
 /**
- * @param {Number} length
+ * @param {Number} length - the length of the array returned
  */
 
 function list(length) {
