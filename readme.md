@@ -1,6 +1,6 @@
 # Random name generator
 
-## Demo link: [https://danielrichter91.github.io/random-names/dist/](https://danielrichter91.github.io/random-names/dist/)
+## Demo link: [https://danielrichter91.github.io/random-names/demo/dist/](https://danielrichter91.github.io/random-names/demo/dist/)
 
 ## What does @helvetia/random-names do?
 
