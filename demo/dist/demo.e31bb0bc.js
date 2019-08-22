@@ -123,20 +123,22 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = _default;
+exports.single = single;
 var listOne = ['Achaeus', 'Achilles', 'Adonis', 'Aegidius', 'Aeneas', 'Aeschylus', 'Aetius', 'Agesilaus', 'Alcibiades', 'Alex', 'Alexander', 'Alexiares', 'Alexis', 'Alexius', 'Ambrose', 'Anastasius', 'Anatole', 'Anatolius', 'Andreas', 'Andrew', 'Angel', 'Angelo', 'Angelus', 'Antiochus', 'Antisthenes', 'Arcadius', 'Aristarchus', 'Arius', 'Athanasius', 'Basil', 'Bastian', 'Christian', 'Christopher', 'Claus', 'Cleo', 'Cletus', 'Colin', 'Collin', 'Cosmas', 'Cosmo', 'Croesus', 'Cyril', 'Damian', 'Damien', 'Damon', 'Demetrius', 'Demosthenes', 'Denis', 'Dennis', 'Denys', 'Diogenes', 'Dion', 'Dionysius', 'Dorian', 'Eneas', 'Erasmus', 'Erastus', 'Euclid', 'Eugene', 'Eugenius', 'Euripides', 'Eusebius', 'Eustace', 'Galen', 'George', 'Giles', 'Gregor', 'Gregory', 'Hector', 'Hectour', 'Heraclitus', 'Heraclius', 'Hieronymus', 'Hippocrates', 'Homer', 'Hyacinth', 'Irenaeus', 'Irenæus', 'Isadore', 'Isidore', 'Jason', 'Jerome', 'Judæus', 'Klaus', 'Kristopher', 'Leander', 'Leonidas', 'Miltiades', 'Nestor', 'Nicephorus', 'Nicholas', 'Nicodemus', 'Nicolas', 'Odysseus', 'Orion', 'Orpheus', 'Paris', 'Peers', 'Pericles', 'Peter', 'Petre', 'Philemon', 'Philip', 'Phillip', 'Phillipp', 'Pierce', 'Piers', 'Plato', 'Prometheus', 'Ptolemæus', 'Ptolemy', 'Pythagoras', 'Rastus', 'Sebastian', 'Socrates', 'Sophocles', 'Sophus', 'Stacey', 'Stacy', 'Stephen', 'Steven', 'Thaddaeus', 'Thaddeus', 'Themistius', 'Theo', 'Theodore', 'Theodosius', 'Theophilus', 'Timon', 'Timothy', 'Xander', 'Zeno', 'Zeuxis'];
 var listTwo = ['Agatha', 'Aglaia', 'Agnes', 'Alex', 'Alexa', 'Alexandra', 'Alexandria', 'Alexandrina', 'Alexia', 'Alexis', 'Althea', 'Anastacia', 'Anastasia', 'Andrea', 'Andrina', 'Angela', 'Angelica', 'Angelina', 'Angeline', 'Anthea', 'Aphrodite', 'Apollonia', 'Ariadne', 'Ariana', 'Ariane', 'Arianna', 'Arianne', 'Artemis', 'Athanasia', 'Athena', 'Berenice', 'Bernice', 'Candace', 'Candice', 'Caren', 'Caryn', 'Cassandra', 'Catharine', 'Catherine', 'Catheryn', 'Cathryn', 'Charmian', 'Chloe', 'Christa', 'Christian', 'Christiana', 'Christina', 'Christine', 'Cleo', 'Clio', 'Cloe', 'Coleen', 'Cora', 'Core', 'Corina', 'Corinna', 'Corinne', 'Corrine', 'Corrinne', 'Cressida', 'Cybil', 'Cybill', 'Cynthia', 'Damaris', 'Daphne', 'Delia', 'Denise', 'Dione', 'Dora', 'Dorcas', 'Dorinda', 'Doris', 'Dorothea', 'Dorothy', 'Eftychia', 'Eirene', 'Elaina', 'Elaine', 'Electra', 'Elena', 'Elissa', 'Ellen', 'Eugenia', 'Eugenie', 'Eula', 'Eulalie', 'Eunice', 'Euphemia', 'Euphrosyne', 'Euthemia', 'Evadne', 'Genesis', 'Georgia', 'Georgiana', 'Georgianna', 'Georgina', 'Greta', 'Gretta', 'Hebe', 'Helen', 'Helena', 'Helene', 'Hermione', 'Hero', 'Ilona', 'Iolanthe', 'Irene', 'Iris', 'Isadora', 'Isidora', 'Ismene', 'Jacintha', 'Jocasta', 'Jorja', 'Karen', 'Karin', 'Karina', 'Karyn', 'Kassandra', 'Katharine', 'Katherine', 'Katheryn', 'Kathryn', 'Katrina', 'Katrine', 'Khloe', 'Khloé', 'Kirsteen', 'Kirsten', 'Kore', 'Krista', 'Kristen', 'Kristin', 'Kristina', 'Kristine', 'Krystin', 'Krystina', 'Lalage', 'Larisa', 'Larissa', 'Lena', 'Lexa', 'Lidia', 'Lois', 'Lydia', 'Lyra', 'Margaret', 'Margarett', 'Margaretta', 'Margarita', 'Margery', 'Marita', 'Marjorie', 'Marjory', 'Melanie', 'Melissa', 'Mellissa', 'Melony', 'Nancy', 'Nerissa', 'Nichola', 'Nichole', 'Nicholine', 'Nicola', 'Nicole', 'Nikita', 'Oenone', 'Olympia', 'Olympias', 'Ophelia', 'Pallas', 'Parthenia', 'Penelope', 'Persephone', 'Persis', 'Peta', 'Petra', 'Phaedra', 'Phebe', 'Philippa', 'Phillida', 'Phillipa', 'Phillis', 'Philomena', 'Phoebe', 'Phyllida', 'Phyllis', 'Rhea', 'Rhoda', 'Rina', 'Sandra', 'Sapphira', 'Selena', 'Selene', 'Sibyl', 'Sibylla', 'Sofia', 'Sophia', 'Sophie', 'Stacee'];
 /**
- * @param {Bool} gender
+ * @param {String} gender
  */
 
-function _default(gender) {
-  if (gender === 'MALE') {
-    return listOne[Math.floor(Math.random() * listOne.length)];
-  }
-
-  if (gender === 'FEMALE') {
-    return listTwo[Math.floor(Math.random() * listTwo.length)];
+function single(gender) {
+  if (typeof gender === 'string') {
+    if (gender === 'MALE') {
+      return listOne[Math.floor(Math.random() * listOne.length)];
+    } else if (gender === 'FEMALE') {
+      return listTwo[Math.floor(Math.random() * listTwo.length)];
+    } else {
+      throw new RangeError('gender must be either MALE or FEMALE');
+    }
   }
 
   var combinedLists = [].concat(listOne, listTwo);
@@ -147,25 +149,23 @@ function _default(gender) {
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
 
-var _index = _interopRequireDefault(require("../src/index"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _index = require("../src/index");
 
 var elementRandom = document.getElementById('random-name-here');
 var elementMale = document.getElementById('male-name-here');
 var elementFemale = document.getElementById('female-name-here');
 document.getElementById("random-name").addEventListener("click", function () {
-  elementRandom.innerHTML = (0, _index.default)();
+  elementRandom.innerHTML = (0, _index.single)();
 });
 document.getElementById("random-male").addEventListener("click", function () {
-  elementMale.innerHTML = (0, _index.default)('MALE');
+  elementMale.innerHTML = (0, _index.single)('MALE');
 });
 document.getElementById("random-female").addEventListener("click", function () {
-  elementFemale.innerHTML = (0, _index.default)('FEMALE');
+  elementFemale.innerHTML = (0, _index.single)('FEMALE');
 });
-elementRandom.innerHTML = (0, _index.default)();
-elementMale.innerHTML = (0, _index.default)('MALE');
-elementFemale.innerHTML = (0, _index.default)('FEMALE');
+elementRandom.innerHTML = (0, _index.single)();
+elementMale.innerHTML = (0, _index.single)('MALE');
+elementFemale.innerHTML = (0, _index.single)('FEMALE');
 },{"../src/index":"../src/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -194,7 +194,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59256" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59156" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
