@@ -16,27 +16,27 @@ Returns a random item from a list of ancient greek names.
 ### Basic
 Random Male or Female name
 ```
-import randomNames from '@helvetia/random-names';
+import { single } from '@helvetia/random-names';
 
-randomNames();
+single();
 
 // > 'Adonis'
 ```
 
 ### Male
 ```
-import randomNames from '@helvetia/random-names';
+import { single } from '@helvetia/random-names';
 
-randomNames('MALE');
+single('MALE');
 
 // > 'Homer'
 ```
 
 ### Female
 ```
-import randomNames from '@helvetia/random-names';
+import { single } from '@helvetia/random-names';
 
-randomNames('FEMALE');
+single('FEMALE');
 
 // > 'Athena'
 ```
