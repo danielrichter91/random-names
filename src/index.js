@@ -361,16 +361,16 @@ export function single(gender) {
  */
 export function list(length) {
     if (length === undefined || length === null) {
-        throw new ReferenceError('Missing 1st argument (length)')
+        throw new ReferenceError('Missing 1st argument (length)');
     }
     if (typeof length !== 'number') {
-        throw new TypeError('list(length) is expecting a number, was given a ' + typeof length)
+        throw new TypeError('list(length) is expecting a number, was given a ' + typeof length);
     }
     if (length < 0) {
-        throw new RangeError('length cannot be a negative number')
+        throw new RangeError('length cannot be a negative number');
     }
     if (length > combinedLists.length) {
-        throw new RangeError('length cannot be greater than ' + combinedLists.length)
+        throw new RangeError('length cannot be greater than ' + combinedLists.length);
     }
 
     let result = [];
