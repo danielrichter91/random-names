@@ -1,6 +1,7 @@
 # Random name generator
 
 [![Build Status](https://travis-ci.org/danielrichter91/random-names.svg?branch=master)](https://travis-ci.org/danielrichter91/random-names)
+[![Coverage Status](https://coveralls.io/repos/github/danielrichter91/random-names/badge.svg?branch=master)](https://coveralls.io/github/danielrichter91/random-names?branch=master)
 [![version](https://img.shields.io/npm/v/@helvetia/random-names)](https://www.npmjs.com/package/@helvetia/random-names)
 
 ## Demo link: [https://danielrichter91.github.io/random-names/demo/dist/](https://danielrichter91.github.io/random-names/demo/dist/)
