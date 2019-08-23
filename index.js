@@ -53,6 +53,10 @@ function list(length) {
     throw new RangeError('length cannot be a negative number');
   }
 
+  if (length > combinedLists.length) {
+    throw new RangeError('length cannot be greater than ' + combinedLists.length);
+  }
+
   var result = [];
 
   for (var i = 0; i < length; i++) {
