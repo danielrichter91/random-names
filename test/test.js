@@ -62,7 +62,7 @@ describe('Testing the list function', function() {
         });
     });
     describe('Testing correct input', function() {
-        describe('Testing correct input', function() {
+        describe('Testing valid param', function() {
             it('should return 5 items', function() {
                 expect(randomNames.list(5)).to.be.an('array');
             });
