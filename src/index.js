@@ -369,6 +369,9 @@ export function list(length) {
     if (length < 0) {
         throw new RangeError('length cannot be a negative number')
     }
+    if (length > combinedLists.length) {
+        throw new RangeError('length cannot be greater than ' + combinedLists.length)
+    }
 
     let result = [];
     for (let i = 0; i < length; i++) { 
