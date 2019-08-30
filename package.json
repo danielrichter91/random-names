@@ -1,6 +1,6 @@
 {
   "name": "@helvetia/random-names",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple library for generating a random name or names from a list of ancient greek names.",
   "main": "index.js",
   "directories": {
